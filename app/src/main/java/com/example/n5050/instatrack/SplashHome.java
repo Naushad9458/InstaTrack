@@ -21,6 +21,9 @@ public class SplashHome extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                Intent in = new Intent(SplashHome.this, MainActivity.class);
+                startActivity(in);
+                finish();
               /*  if (SharedPrefManager.getInstance(getApplicationContext()).isLogin())  {
                     if (SharedPrefManager.getInstance(getApplicationContext()).getUserType().contains("tutor")) {
                         Intent in = new Intent(SplashActivity.this, TutorProfile.class);
