@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">InstaTrack</string>
     <string name="title_activity_splash_home">SplashHome</string>
+    <string name="title_activity_otp_auth_login">OtpAuthLogin</string>
 </resources>
