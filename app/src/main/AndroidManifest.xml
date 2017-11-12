@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashHome"
             android:label="@string/title_activity_splash_home"
@@ -23,7 +23,12 @@
         <activity
             android:name=".OtpAuthLogin"
             android:label="@string/title_activity_otp_auth_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUpOTP"></activity>
     </application>
 
 </manifest>
