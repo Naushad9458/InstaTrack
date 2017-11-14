@@ -5,4 +5,5 @@ package com.example.n5050.instatrack;
  */
 
 public class Config {
+    public static final String baseUrl = "http://868c217a.ngrok.io/InstaTrack_Script/";
 }
