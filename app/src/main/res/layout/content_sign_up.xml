@@ -12,16 +12,18 @@
         android:layout_height="match_parent"
         android:gravity="center">
         <EditText
-            android:id="@+id/etId1"
+            android:id="@+id/etPhoneSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="10"
             android:hint="Mobile Number"
             android:gravity="center"/>
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btnSignUpOtp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/etId1"
+            android:layout_below="@id/etPhoneSignUp"
             android:text="Next"/>
     </RelativeLayout>
 

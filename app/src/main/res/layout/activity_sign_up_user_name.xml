@@ -5,5 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.n5050.instatrack.SignUpUserName">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/etUName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etFName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUName"
+            android:gravity="center"
+            android:hint="First Name" />
+        <EditText
+            android:id="@+id/etLName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etFName"
+            android:hint="Last Name"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/btnUN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etLName"
+            android:text="Next" />
+    </RelativeLayout>
+
 
 </android.support.constraint.ConstraintLayout>
